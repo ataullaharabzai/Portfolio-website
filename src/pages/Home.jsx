@@ -31,12 +31,12 @@ function Home() {
         </section>
       </div>
 
-      <section className="projects w-full p-5 md:p-15 flex justify-center items-start flex-col">
-        <p className='text-[30px] sm:text-[50px] font-bold'>Projects<span className='font-bold text-3xl md:text-7xl text-[#6e06f2]'>.</span></p>
-        <div className="project-section mt-5 flex flex-col justify-cente items-center lg:flex-row gap-3">
+      <section className="projects w-full p-5 lg:p-15 flex justify-center items-center lg:items-start flex-col">
+        <p className='text-[30px] w-full text-left sm:text-[50px] font-bold'>Projects<span className='font-bold text-3xl md:text-7xl text-[#6e06f2]'>.</span></p>
+        <div className="project-section mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
 
-          <a href='https://ataullaharabzai.github.io/Dental-Clinic/' className='p-6 bg-gray-200 rounded-2xl w-full max-w-100 cursor-pointer'>
-            <div className='w-85 h-50 rounded-xl'>
+          <a href='https://ataullaharabzai.github.io/Dental-Clinic/' className=' p-6 bg-gray-200 rounded-2xl w-full cursor-pointer'>
+            <div className='w-full h-52 sm:h-60 rounded-xl overflow-hidden'>
               <img
                 src={clinic}
                 alt="Dental clinic"
@@ -47,8 +47,8 @@ function Home() {
             <p className='text-[12px] sm:text-[14px] text-[#4e525a]'>Professional dental clinic web application with user Auth and responsive layout.</p>
           </a>
 
-          <a href='https://github.com/ataullaharabzai/Amazon-React' className='p-6 bg-gray-200 rounded-2xl w-full max-w-100 cursor-pointer'>
-            <div className='w-85 h-50 rounded-xl'>
+          <a href='https://github.com/ataullaharabzai/Amazon-React' className='p-6 bg-gray-200 rounded-2xl w-full cursor-pointer'>
+            <div className='w-full h-52 sm:h-60 overflow-hidden rounded-xl'>
               <img
                 src={product}
                 alt="Dental clinic"
@@ -59,8 +59,8 @@ function Home() {
             <p className='text-[12px] sm:text-[14px] text-[#4e525a]'>Porduct listing with API handling and modren layout.</p>
           </a>
 
-          <a href='https:github.com/ataullaharabzai' className='p-6 bg-gray-200 rounded-2xl w-full max-w-100 cursor-pointer'>
-            <div className='w-85 h-50 rounded-xl'>
+          <a href='https:github.com/ataullaharabzai' className='p-6 bg-gray-200 rounded-2xl w-full cursor-pointer'>
+            <div className='w-full h-52 sm:h-60 rounded-xl overflow-hidden'>
               <img
                 src={youtub}
                 alt="Dental clinic"
@@ -83,10 +83,10 @@ function Home() {
       <section className="skills w-full p-5 md:p-15">
         <p className='text-[30px] sm:text-[50px] font-bold'>Skills<span className='font-bold text-3xl md:text-6xl text-[#6e06f2]'>.</span></p>
 
-        <div className='w-full flex justify-between items-start mt-5'>
+        <div className='w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 mt-5'>
 
           <div>
-            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>Web Design</p>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15'>Web Design</p>
             <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
               <p>Responsive Design</p>
               <p>User Research</p>
@@ -94,7 +94,7 @@ function Home() {
           </div>
 
           <div>
-            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>Frontend</p>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15'>Frontend</p>
             <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
               <p>HTML5</p>
               <p>CSS3</p>
@@ -106,7 +106,7 @@ function Home() {
           </div>
 
           <div>
-            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>{`Backend "Learning"`}</p>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15'>{`Backend "Learning"`}</p>
             <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
               <p>PHP</p>
               <p>Laravel</p>
@@ -115,7 +115,7 @@ function Home() {
           </div>
 
           <div>
-            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>Soft Skills</p>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15'>Soft Skills</p>
             <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
               <p>Effective Communication</p>
               <p>Collaboration</p>
