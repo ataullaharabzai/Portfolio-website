@@ -1,5 +1,9 @@
 import React from 'react'
 import myImage from '../images/img_3.jpeg'
+import darkImg from '../images/my_dark.jpeg'
+import clinic from '../images/clinic.PNG'
+import product from '../images/product.PNG'
+import youtub from '../images/youtub.PNG'
 import { NavLink } from 'react-router-dom'
 
 function Home() {
@@ -7,7 +11,7 @@ function Home() {
     <main>
       <div className='w-full p-5 md:p-15 mt-10 flex flex-col md:flex-row justify-around'>
         <section className='introduction w-full md:max-w-[50%] flex flex-wrap justify-center items-stretch flex-col gap-2'>
-          <p className='text-[14px] md:text-[22px] text-[#4e525a]'>Hey, i'm Ataullah ARABZAI</p>
+          <p className='text-[14px] md:text-[22px] text-[#4e525a]'>Hey, I'm Ataullah ARABZAI</p>
           <div className='leading-12 w-full md:w1/2 lg:leading-24'>
             <h1 className='text-[50px] lg:text-[90px] font-bold'><span className='text-[#6e06f2]'>Front</span>end</h1>
             <h1 className='text-[50px] lg:text-[90px] font-bold'>Developer</h1>
@@ -26,6 +30,51 @@ function Home() {
           </div>
         </section>
       </div>
+
+      <section className="projects w-full p-5 md:p-15 flex justify-center items-start flex-col">
+        <p className='text-[30px] sm:text-[50px] font-bold'>Projects<span className='font-bold text-3xl md:text-7xl text-[#6e06f2]'>.</span></p>
+        <div className="project-section mt-5 flex flex-col justify-cente items-center lg:flex-row gap-3">
+
+          <a href='https://ataullaharabzai.github.io/Dental-Clinic/' className='p-6 bg-gray-300 rounded-2xl w-full max-w-100 cursor-pointer'>
+            <div className='w-85 h-50 rounded-xl'>
+              <img
+                src={clinic}
+                alt="Dental clinic"
+                className='object-fill w-full h-full rounded-xl'
+              />
+            </div>
+            <p className='font-semibold sm:text-[20px] mt-2 mb-2'>Dental clicni</p>
+            <p className='text-[12px] sm:text-[14px] text-[#4e525a]'>Professional dental clinic web application with user Auth and responsive layout.</p>
+          </a>
+
+          <a href='https://github.com/ataullaharabzai/Amazon-React' className='p-6 bg-gray-300 rounded-2xl w-full max-w-100 cursor-pointer'>
+            <div className='w-85 h-50 rounded-xl'>
+              <img
+                src={product}
+                alt="Dental clinic"
+                className='object-fill w-full h-full rounded-xl'
+              />
+            </div>
+            <p className='font-semibold sm:text-[20px] mt-2 mb-2'>Shopping Store</p>
+            <p className='text-[12px] sm:text-[14px] text-[#4e525a]'>Porduct listing with API handling and modren layout.</p>
+          </a>
+
+          <a href='https:github.com/ataullaharabzai' className='p-6 bg-gray-300 rounded-2xl w-full max-w-100 cursor-pointer'>
+            <div className='w-85 h-50 rounded-xl'>
+              <img
+                src={youtub}
+                alt="Dental clinic"
+                className='object-fill w-full h-full rounded-xl'
+              />
+            </div>
+            <p className='font-semibold sm:text-[20px] mt-2 mb-2'>YouTube Clone</p>
+            <p className='text-[12px] sm:text-[14px] text-[#4e525a]'>A YouTube clone with basic DOM manipulation and clean layout.</p>
+          </a>
+
+        </div>
+      </section>
+
+      
     </main>
   )
 }

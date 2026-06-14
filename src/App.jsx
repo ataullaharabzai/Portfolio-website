@@ -9,7 +9,7 @@ function App() {
     <>
       <Navebar />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
