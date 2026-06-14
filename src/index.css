@@ -6,3 +6,57 @@ body {
     overflow-x: hidden;
     box-sizing: border-box;
 }
+
+.skills-box {
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+    width: max-content;
+}
+
+.row span {
+    padding: 10px 20px;
+    border-radius: 999px;
+    background: black;
+    color: white;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.row-right {
+    animation: moveRight 25s linear infinite;
+}
+
+.row-left {
+    animation: moveLeft 25s linear infinite;
+}
+
+@keyframes moveRight {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes moveLeft {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-150%);
+    }
+}

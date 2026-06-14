@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import { Phone } from 'react-feather'
+import { MessageCircle, Phone } from 'react-feather'
 
 function Navebar() {
   return (
@@ -15,8 +15,8 @@ function Navebar() {
         <li><NavLink to='/about' className={({ isActive }) => isActive ? 'text-[#6e06f2] font-semibold' : 'hover:text-[#6e06f2] font-semibold'}>About</NavLink></li>
         
       </nav>
-      <NavLink to='/contact' className={`sm:border sm:border-[#6e06f2] p-1 ml-5 sm:ml-0 sm:p-2 rounded-full`}>
-        <Phone className='hover:fill-black w-4 sm:w-8 sm:h-8' />
+      <NavLink to='/contact' className={`border border-white hover:border-[#6e06f2] p-1 ml-5 sm:ml-0 sm:p-2 rounded-full`}>
+        <MessageCircle className=' w-4 sm:w-8 sm:h-8' />
       </NavLink>
     </header>
   )

@@ -24,8 +24,8 @@ function Home() {
         </section>
         <section className='myImage w-full'>
           <div className='circle-img lg:w-full flex justify-center items-center mt-10 md:mt-0'>
-            <div className='lg:w-85 lg:h-85 w-65 h-65 rounded-full p-10 border border-[#6e06f2]'>
-              <img className='object-cover w-full h-full rounded-full' src={myImage} alt="Developer Image" />
+            <div className='lg:w-95 lg:h-95 w-65 h-65 rounded-full p-10 border border-[#6e06f2]'>
+              <img className='object-cover w-full h-full rounded-full' src={darkImg} alt="Developer Image" />
             </div>
           </div>
         </section>
