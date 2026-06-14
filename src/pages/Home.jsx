@@ -35,7 +35,7 @@ function Home() {
         <p className='text-[30px] sm:text-[50px] font-bold'>Projects<span className='font-bold text-3xl md:text-7xl text-[#6e06f2]'>.</span></p>
         <div className="project-section mt-5 flex flex-col justify-cente items-center lg:flex-row gap-3">
 
-          <a href='https://ataullaharabzai.github.io/Dental-Clinic/' className='p-6 bg-gray-300 rounded-2xl w-full max-w-100 cursor-pointer'>
+          <a href='https://ataullaharabzai.github.io/Dental-Clinic/' className='p-6 bg-gray-200 rounded-2xl w-full max-w-100 cursor-pointer'>
             <div className='w-85 h-50 rounded-xl'>
               <img
                 src={clinic}
@@ -47,7 +47,7 @@ function Home() {
             <p className='text-[12px] sm:text-[14px] text-[#4e525a]'>Professional dental clinic web application with user Auth and responsive layout.</p>
           </a>
 
-          <a href='https://github.com/ataullaharabzai/Amazon-React' className='p-6 bg-gray-300 rounded-2xl w-full max-w-100 cursor-pointer'>
+          <a href='https://github.com/ataullaharabzai/Amazon-React' className='p-6 bg-gray-200 rounded-2xl w-full max-w-100 cursor-pointer'>
             <div className='w-85 h-50 rounded-xl'>
               <img
                 src={product}
@@ -59,7 +59,7 @@ function Home() {
             <p className='text-[12px] sm:text-[14px] text-[#4e525a]'>Porduct listing with API handling and modren layout.</p>
           </a>
 
-          <a href='https:github.com/ataullaharabzai' className='p-6 bg-gray-300 rounded-2xl w-full max-w-100 cursor-pointer'>
+          <a href='https:github.com/ataullaharabzai' className='p-6 bg-gray-200 rounded-2xl w-full max-w-100 cursor-pointer'>
             <div className='w-85 h-50 rounded-xl'>
               <img
                 src={youtub}
@@ -74,7 +74,63 @@ function Home() {
         </div>
       </section>
 
-      
+      <section className="experiance w-full p-5 md:p-15">
+        <p className='text-[30px] sm:text-[50px] font-bold'>Experience<span className='font-bold text-3xl md:text-6xl text-[#6e06f2]'>.</span></p>
+        <p className='text-[13px] md:text-[18px] text-[#4e525a]'>I <span className='text-[#6e06f2]'>started</span> learning web development in <span className='text-[#6e06f2]'>2025</span> and have been building projects to improve my skills ever since. Although I don't have professional industry experience yet, I enjoy creating responsive and user-friendly web applications and learning <span className='text-[#6e06f2]'>new technologies</span>. I'm currently working toward becoming a <span className='text-[#6e06f2]'>full-stack developer</span> and i am excited to contribute, learn, and grow when given the <span className='text-[#6e06f2]'>opportunity</span>.</p>
+        <p className='text-[13px] md:text-[18px] text-[#4e525a]'>And you know what? I Love what i do! 💜</p>
+      </section>
+
+      <section className="skills w-full p-5 md:p-15">
+        <p className='text-[30px] sm:text-[50px] font-bold'>Skills<span className='font-bold text-3xl md:text-6xl text-[#6e06f2]'>.</span></p>
+
+        <div className='w-full flex justify-between items-start mt-5'>
+
+          <div>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>Web Design</p>
+            <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
+              <p>Responsive Design</p>
+              <p>User Research</p>
+            </div>
+          </div>
+
+          <div>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>Frontend</p>
+            <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>JavaScript</p>
+              <p>TypeScript</p>
+              <p>ReactJS</p>
+              <p>TailwindCSS</p>
+            </div>
+          </div>
+
+          <div>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>{`Backend "Learning"`}</p>
+            <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
+              <p>PHP</p>
+              <p>Laravel</p>
+              <p>MySQL</p>
+            </div>
+          </div>
+
+          <div>
+            <p class='text-[20px] md:text-[22px] font-semibold leading-15'>Soft Skills</p>
+            <div class='text-[14px] md:text-[18px] text-[#4e525a]'>
+              <p>Effective Communication</p>
+              <p>Collaboration</p>
+              <p>Growth Mindset</p>
+              <p>Continuous Learning</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section className="myStory w-full p-5 md:p-15">
+        <p className='text-[30px] sm:text-[50px] font-bold'>My Story<span className='font-bold text-3xl md:text-6xl text-[#6e06f2]'>.</span></p>
+        <p className='text-[13px] md:text-[18px] text-[#4e525a]'>My journey into web development started with curiosity and a desire to create things on the internet. What began with learning HTML and CSS gradually grew into a passion for building interactive and responsive websites. Since then, I have continued learning new technologies, working on personal projects, and challenging myself to improve every day. My goal is to become a skilled full-stack developer and use technology to build useful solutions that make a difference.</p>
+      </section>
     </main>
   )
 }
