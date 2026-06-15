@@ -64,7 +64,7 @@ To run this project locally:
 ```bash
 git clone https://github.com/ataullaharabzai/Portfolio-website.git
 
-cd Portfolio-website
+cd portfolio
 
 npm install
 
