@@ -3,7 +3,7 @@
 html,
 body {
     font-family: 'Poppins';
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     box-sizing: border-box;
 }
 
