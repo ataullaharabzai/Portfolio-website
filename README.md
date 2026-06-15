@@ -81,4 +81,4 @@ I'm always open to feedback, collaboration, and new opportunities. If you'd like
 
 🌐 Portfolio: https://portfolio-ataullah.vercel.app
 
-Thank you for visiting my project!
+Thank you for visiting my project! ❤
