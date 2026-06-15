@@ -13,8 +13,8 @@ function Projects() {
         <p className='text-[#4e525a] text-[16px] md:text-[24px]'>performance, and exceptional user experiences.</p>
       </div>
 
-      <section className='projects p-5 overflow-visible'>
-        <div className="project1 mt-10 sticky top-5 z-10 bg-white rounded-2xl">
+      <section className='projects p-5'>
+        <div className="project1 mt-10 bg-white rounded-2xl">
           <div className=' w-full bg-gray-400 p-5 flex justify-center items-center rounded-2xl'>
             <a href="https://ataullaharabzai.github.io/Dental-Clinic/" className=''>
               <div>
@@ -31,7 +31,7 @@ function Projects() {
           <p className='md:text-[22px] text-[#4e525a]'>Build with HTML5, CSS3 and JavaScript.</p>
         </div>
 
-        <div className="project2 mt-20 sticky top-5 z-20 bg-white rounded-2xl">
+        <div className="project2 mt-20 bg-white rounded-2xl">
           <div className='w-full bg-gray-400 p-5 flex justify-center items-center rounded-2xl'>
             <a href="https://github.com/ataullaharabzai" className=''>
               <div>
@@ -48,7 +48,7 @@ function Projects() {
           <p className='md:text-[22px] text-[#4e525a]'>Build with ReactJS and TailwindCSS.</p>
         </div>
 
-        <div className="project3 mt-20 sticky top-5 z-30 bg-white rounded-2xl">
+        <div className="project3 mt-20 bg-white rounded-2xl">
           <div className='w-full bg-gray-400 p-5 flex justify-center items-center rounded-2xl'>
             <a href="https://github.com/ataullaharabzai" className=''>
               <div>
