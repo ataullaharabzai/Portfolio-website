@@ -4,7 +4,7 @@ import { MessageCircle, Phone } from 'react-feather'
 
 function Navebar() {
   return (
-    <header className='w-full flex justify-around items-stretch sm:items-center md:gap-50 p-3'>
+    <header className='w-full flex justify-around items-stretch sm:items-center md:gap-50 p-3 text-[#4e525a]'>
       <NavLink to='/' className='font-bold w-full text-[12px] flex justify-center items-center sm:text-[16px] sm:w-[170px] mr-2 sm:mr-0'>Arabzai DEV<span className='font-bold text-3xl text-[#6e06f2]'>.</span></NavLink>
       <nav className='list-none w-full text-[11px] sm:text-[16px] max-w-60 flex justify-center sm:justify-around gap-3 sm:gap-0 items-center'>
 
