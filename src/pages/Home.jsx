@@ -5,6 +5,7 @@ import clinic from "../images/clinic.PNG";
 import product from "../images/product.PNG";
 import youtube from "../images/youtub.PNG";
 import { NavLink } from "react-router-dom";
+import devhire from '../images/devhire.PNG'
 
 function Home() {
   return (
@@ -59,7 +60,7 @@ function Home() {
             .
           </span>
         </p>
-        <div className="project-section mt-5 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+        <div className="project-section mt-5 grid grid-cols-1 md:grid-cols-2 gap-5">
           <a
             href="https://ataullaharabzai.github.io/Dental-Clinic/"
             className=" p-6 bg-gray-200 rounded-2xl w-full cursor-pointer"
@@ -77,6 +78,25 @@ function Home() {
             <p className="text-[12px] sm:text-[14px] text-[#4e525a]">
               Professional dental clinic web application with user Auth and
               responsive layout.
+            </p>
+          </a>
+
+          <a
+            href="https://dev-hire-jobs.vecel.app"
+            className="p-6 bg-gray-200 rounded-2xl w-full cursor-pointer"
+          >
+            <div className="w-full h-52 sm:h-60 overflow-hidden rounded-xl">
+              <img
+                src={devhire}
+                alt="DevHire jobs"
+                className="object-fill w-full h-full rounded-xl"
+              />
+            </div>
+            <p className="font-semibold sm:text-[20px] mt-2 mb-2">
+              Job Board
+            </p>
+            <p className="text-[12px] sm:text-[14px] text-[#4e525a]">
+              Job board for developers, designers and tech users.
             </p>
           </a>
 
