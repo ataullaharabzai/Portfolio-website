@@ -82,7 +82,7 @@ function Home() {
           </a>
 
           <a
-            href="https://dev-hire-jobs.vecel.app"
+            href="https://dev-hire-jobs.vercel.app"
             className="p-6 bg-gray-200 rounded-2xl w-full cursor-pointer"
           >
             <div className="w-full h-52 sm:h-60 overflow-hidden rounded-xl">
