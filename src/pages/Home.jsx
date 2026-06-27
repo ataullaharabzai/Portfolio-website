@@ -9,7 +9,7 @@ import devhire from '../images/devhire.PNG'
 
 function Home() {
   return (
-    <main>
+    <main className="dark:bg-gray-800 dark:text-white">
       <div className="w-full p-5 md:p-15 mt-10 flex flex-col md:flex-row justify-around">
         <section className="introduction w-full md:max-w-[50%] flex flex-wrap justify-center items-stretch flex-col gap-2">
           <p className="text-[14px] md:text-[22px] text-[#4e525a]">
@@ -174,20 +174,20 @@ function Home() {
 
         <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 mt-5">
           <div>
-            <p class="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">
+            <p className="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">
               Web Design
             </p>
-            <div class="text-[14px] md:text-[18px] text-[#4e525a]">
+            <div className="text-[14px] md:text-[18px] text-[#4e525a]">
               <p>Responsive Design</p>
               <p>User Research</p>
             </div>
           </div>
 
           <div>
-            <p class="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">
+            <p className="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">
               Frontend
             </p>
-            <div class="text-[14px] md:text-[18px] text-[#4e525a]">
+            <div className="text-[14px] md:text-[18px] text-[#4e525a]">
               <p>HTML5</p>
               <p>CSS3</p>
               <p>JavaScript</p>
@@ -198,8 +198,8 @@ function Home() {
           </div>
 
           <div>
-            <p class="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">{`Backend "Learning"`}</p>
-            <div class="text-[14px] md:text-[18px] text-[#4e525a]">
+            <p className="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">{`Backend "Learning"`}</p>
+            <div className="text-[14px] md:text-[18px] text-[#4e525a]">
               <p>PHP</p>
               <p>Laravel</p>
               <p>MySQL</p>
@@ -207,10 +207,10 @@ function Home() {
           </div>
 
           <div>
-            <p class="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">
+            <p className="text-[20px] md:text-[22px] font-semibold leading-10 md:leading-15">
               Soft Skills
             </p>
-            <div class="text-[14px] md:text-[18px] text-[#4e525a]">
+            <div className="text-[14px] md:text-[18px] text-[#4e525a]">
               <p>Effective Communication</p>
               <p>Collaboration</p>
               <p>Growth Mindset</p>

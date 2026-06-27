@@ -1,8 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { MessageCircle, Phone } from "react-feather";
+import { MessageCircle, Phone, Moon, Sun } from "react-feather";
+import { useTheme } from "../contexts/ThemeProvider";
 
 function Navebar() {
+  const { darkMode, toggleTheme } = useTheme();
+
   return (
     <header className="w-full flex justify-around items-stretch sm:items-center md:gap-50 p-3 text-[#4e525a]">
       <NavLink
@@ -51,12 +54,18 @@ function Navebar() {
           </NavLink>
         </li>
       </nav>
-      <NavLink
+      {/* <NavLink
         to="/contact"
         className={`border border-white hover:border-[#6e06f2] p-1 ml-5 sm:ml-0 sm:p-2 rounded-full`}
       >
         <MessageCircle className=" w-4 sm:w-8 sm:h-8" />
-      </NavLink>
+      </NavLink> */}
+      {/* <button
+        onClick={toggleTheme}
+        className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-lg transition-all duration-300 flex items-center justify-center"
+      >
+        {darkMode ? <Sun /> : <Moon />}
+      </button> */}
     </header>
   );
 }
