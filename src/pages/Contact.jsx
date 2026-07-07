@@ -16,18 +16,18 @@ function Contact() {
           <div className='text-[14px] md:text-[16px] w-full lg:w-[320px] flex flex-col justify-center lg:justify-start items-start mt-5 gap-4 lg:gap-2'>
             <div>
               <div className='flex gap-5'>
-                <Mail className='cursor-pointer hover:text-[#4e525a]' />
-                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ataullaharabzai7@gmail.com&su=Project%20Inquiry&body=Hi%20Ataullah,%0A%0AI%20am%20contacting%20you%20regarding%20a%20project.%20Please%20share%20more%20details.%0A%0AThanks"
-                className='hover:text-[#4e525a]'
+                <Mail className='cursor-pointer hover:text-[#6e06f2]' />
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=developer.ataullah@gmail.com&su=Project%20Inquiry&body=Hi%20Ataullah,%0A%0AI%20am%20contacting%20you%20regarding%20a%20project.%20Please%20share%20more%20details.%0A%0AThanks"
+                className='hover:text-[#6e06f2]'
                 >
-                  ataullaharabzai7@gmail.com
+                  developer.ataullah@gmail.com
                 </a>
               </div>
 
               <div className='flex gap-5 mt-3'>
-                <Phone className='cursor-pointer hover:text-[#4e525a]' />
+                <Phone className='cursor-pointer hover:text-[#6e06f2]' />
                 <a href="https://wa.me/93704071798"
-                className='hover:text-[#4e525a]'
+                className='hover:text-[#6e06f2]'
                 >
                   +93 704 071 798
                 </a>
