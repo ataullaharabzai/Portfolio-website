@@ -75,7 +75,7 @@ npm run dev
 
 I'm always open to feedback, collaboration, and new opportunities. If you'd like to discuss a project or just say hello, feel free to reach out.
 
-📧 Email: your-email@gmail.com
+📧 Email: developer.ataullah@gmail.com
 
 📱 WhatsApp: +93 704 071 798
 
