@@ -1,4 +1,3 @@
-import React from "react";
 import myImage from "../images/img_3.jpeg";
 import darkImg from "../images/my_dark.jpeg";
 import clinic from "../images/clinic.PNG";
@@ -6,12 +5,25 @@ import product from "../images/product.PNG";
 import youtube from "../images/youtub.PNG";
 import { NavLink } from "react-router-dom";
 import devhire from '../images/devhire.PNG'
+import cv from '../files/Ataullah CV PDF.pdf'
+import {Download} from 'react-feather'
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Home() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false
+    })
+  }, [])
+
   return (
     <main className="dark:bg-gray-800 dark:text-white">
       <div className="w-full p-5 md:p-15 mt-10 flex flex-col md:flex-row justify-around">
-        <section className="introduction w-full md:max-w-[50%] flex flex-wrap justify-center items-stretch flex-col gap-2">
+        <section data-aos='fade-left' className="introduction w-full md:max-w-[50%] flex flex-wrap justify-center items-stretch flex-col gap-2">
           <p className="text-[14px] md:text-[22px] text-[#4e525a]">
             Hey, I'm Ataullah ARABZAI
           </p>
@@ -25,22 +37,23 @@ function Home() {
             I'm a frontend developer based in Afghanistan, I'll help you build
             beautiful websites and web applications your users will love.
           </p>
-          <div className="text-[14px] md:text-[16px] w-full lg:w-[320px] flex justify-center lg:justify-start items-center mt-5 gap-4 lg:gap-2 sm:mt-0">
+          <div className="text-[14px] md:text-[16px] w-full lg:w-115 flex justify-center lg:justify-start items-center mt-5 gap-4 lg:gap-2 sm:mt-0">
             <NavLink
               to="/contact"
-              className="border rounded-lg font-medium px-2.5 py-2 text-white bg-[#6c06f2] cursor-pointer hover:bg-[#6c06f2c5] transition-all"
+              className="border rounded-lg font-medium px-2.5 py-3 text-white bg-[#6c06f2] cursor-pointer hover:bg-[#6c06f2c5] transition-all"
             >
               Get In Touch
             </NavLink>
             <NavLink
               to="/projects"
-              className="border rounded-lg font-medium px-2.5 py-2 cursor-pointer hover:bg-black hover:text-white transition-all"
+              className="border rounded-lg font-medium px-2.5 py-3 cursor-pointer hover:bg-black hover:text-white transition-all"
             >
               Browse Projects
             </NavLink>
+            <a className="border rounded-lg font-medium flex gap-1 px-2.5 py-3 cursor-pointer hover:bg-black hover:text-white transition-all" href="" download={cv}>Download CV <Download/></a>
           </div>
         </section>
-        <section className="myImage w-full">
+        <section data-aos='fade-right' className="myImage w-full">
           <div className="circle-img lg:w-full flex justify-center items-center mt-10 md:mt-0">
             <div className="lg:w-95 lg:h-95 w-65 h-65 rounded-full p-10 border border-[#6e06f2]">
               <img
@@ -60,7 +73,7 @@ function Home() {
             .
           </span>
         </p>
-        <div className="project-section mt-5 grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div data-aos='fade-up'  className="project-section mt-5 grid grid-cols-1 md:grid-cols-2 gap-5">
           <a
             href="https://ataullaharabzai.github.io/Dental-Clinic/"
             className=" p-6 bg-gray-200 rounded-2xl w-full cursor-pointer"
