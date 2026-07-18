@@ -2,9 +2,19 @@ import React from "react";
 import clinic from "../images/clinic.PNG";
 import youtube from "../images/youtub.PNG";
 import product from "../images/product.PNG";
-import devhire from '../images/devhire.PNG'
+import devhire from "../images/devhire.PNG";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Projects() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
+
   return (
     <main className="p-5 md:p-15 mt-5">
       <div>
@@ -53,10 +63,7 @@ function Projects() {
 
         <div className="project2 mt-10 bg-white rounded-2xl">
           <div className=" w-full bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg p-5 flex justify-center items-center rounded-2xl">
-            <a
-              href="https://dev-hire-jobs.vercel.app"
-              className=""
-            >
+            <a href="https://dev-hire-jobs.vercel.app" className="">
               <div className="shadow shadow-gray-400 rounded-2xl">
                 <img
                   src={devhire}
@@ -66,11 +73,10 @@ function Projects() {
               </div>
             </a>
           </div>
-          <p className="text-2xl md:text-5xl mt-3 font-semibold">
-            Jobs Board
-          </p>
+          <p className="text-2xl md:text-5xl mt-3 font-semibold">Jobs Board</p>
           <p className="md:text-[22px] text-[#4e525a]">
-            A job board web application for developers, designers and other tech users.
+            A job board web application for developers, designers and other tech
+            users.
           </p>
           <p className="md:text-[22px] text-[#4e525a]">
             Build with React, TypeScript and TailwindCSS.
