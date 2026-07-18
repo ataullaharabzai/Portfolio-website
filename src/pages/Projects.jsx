@@ -18,24 +18,24 @@ function Projects() {
   return (
     <main className="p-5 md:p-15 mt-5">
       <div>
-        <p className="text-3xl md:text-7xl font-bold">
+        <p data-aos='fade-right' className="text-3xl md:text-7xl font-bold">
           My <span className="text-[#6e06f2]">Best</span> Creations
           <span className="font-bold text-3xl md:text-8xl text-[#6e06f2]">
             .
           </span>
         </p>
-        <p className="text-[#4e525a] text-[16px] md:text-[24px] mt-5">
+        <p data-aos='fade-left' className="text-[#4e525a] text-[16px] md:text-[24px] mt-5">
           Designing and developing modern web applications that combine
           creativity,
         </p>
-        <p className="text-[#4e525a] text-[16px] md:text-[24px]">
+        <p data-aos='fade-left' className="text-[#4e525a] text-[16px] md:text-[24px]">
           performance, and exceptional user experiences.
         </p>
       </div>
 
       <section className="projects p-5">
-        <div className="project1 mt-10 bg-white rounded-2xl">
-          <div className="w-full bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg p-5 flex justify-center items-center rounded-2xl">
+        <div data-aos='fade-up' className="project1 mt-10 bg-white rounded-2xl">
+          <div className="w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a
               href="https://ataullaharabzai.github.io/Dental-Clinic/"
               className=""
@@ -61,8 +61,8 @@ function Projects() {
           </p>
         </div>
 
-        <div className="project2 mt-10 bg-white rounded-2xl">
-          <div className=" w-full bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg p-5 flex justify-center items-center rounded-2xl">
+        <div data-aos='fade-up' className="project2 mt-10 bg-white rounded-2xl">
+          <div className=" w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a href="https://dev-hire-jobs.vercel.app" className="">
               <div className="shadow shadow-gray-400 rounded-2xl">
                 <img
@@ -83,8 +83,8 @@ function Projects() {
           </p>
         </div>
 
-        <div className="project3 mt-20 bg-white rounded-2xl">
-          <div className="w-full bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg p-5 flex justify-center items-center rounded-2xl">
+        <div data-aos='fade-up' className="project3 mt-20 bg-white rounded-2xl">
+          <div className="w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a href="https://github.com/ataullaharabzai" className="">
               <div>
                 <img
@@ -106,8 +106,8 @@ function Projects() {
           </p>
         </div>
 
-        <div className="project4 mt-20 bg-white rounded-2xl">
-          <div className="w-full bg-white/10 backdrop-blur-xl border border-white/20 shadow-lg p-5 flex justify-center items-center rounded-2xl">
+        <div data-aos='fade-up' className="project4 mt-20 bg-white rounded-2xl">
+          <div className="w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a href="https://github.com/ataullaharabzai" className="">
               <div>
                 <img
