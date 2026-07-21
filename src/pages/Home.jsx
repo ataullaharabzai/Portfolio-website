@@ -27,11 +27,15 @@ function Home() {
           className="introduction dark:text-gray-300 w-full md:max-w-[50%] flex flex-wrap justify-center items-stretch flex-col gap-2"
         >
           <p className="dark:text-gray-200 text-[14px] md:text-[22px] text-[#4e525a]">
-            Hey, I'm <span className="dark:text-orange-600 text-[#6c06f2]">Ataullah ARABZAI</span>
+            Hey, I'm{" "}
+            <span className="dark:text-orange-600 text-[#6c06f2]">
+              Ataullah ARABZAI
+            </span>
           </p>
           <div className="leading-12 w-full md:w1/2 lg:leading-24">
             <h1 className="text-[50px] lg:text-[90px] font-bold">
-              <span className="text-[#6e06f2] dark:text-orange-600">Front</span>end
+              <span className="text-[#6e06f2] dark:text-orange-600">Front</span>
+              end
             </h1>
             <h1 className="text-[50px] lg:text-[90px] font-bold">Developer</h1>
           </div>
@@ -172,16 +176,24 @@ function Home() {
           </span>
         </p>
         <p className="dark:text-gray-300 text-[13px] md:text-[18px] text-[#4e525a]">
-          I <span className="text-[#6e06f2] dark:text-orange-600">started</span> learning web
-          development in <span className="text-[#6e06f2] dark:text-orange-600">2025</span> and have
-          been building projects to improve my skills ever since. Although I
-          don't have professional industry experience yet, I enjoy creating
+          I <span className="text-[#6e06f2] dark:text-orange-600">started</span>{" "}
+          learning web development in{" "}
+          <span className="text-[#6e06f2] dark:text-orange-600">2025</span> and
+          have been building projects to improve my skills ever since. Although
+          I don't have professional industry experience yet, I enjoy creating
           responsive and user-friendly web applications and learning{" "}
-          <span className="text-[#6e06f2] dark:text-orange-600">new technologies</span>. I'm
-          currently working toward becoming a{" "}
-          <span className="text-[#6e06f2] dark:text-orange-600">full-stack developer</span> and i am
-          excited to contribute, learn, and grow when given the{" "}
-          <span className="text-[#6e06f2] dark:text-orange-600">opportunity</span>.
+          <span className="text-[#6e06f2] dark:text-orange-600">
+            new technologies
+          </span>
+          . I'm currently working toward becoming a{" "}
+          <span className="text-[#6e06f2] dark:text-orange-600">
+            full-stack developer
+          </span>{" "}
+          and i am excited to contribute, learn, and grow when given the{" "}
+          <span className="text-[#6e06f2] dark:text-orange-600">
+            opportunity
+          </span>
+          .
         </p>
         <p className="text-[13px] md:text-[18px] text-[#4e525a] dark:text-gray-300">
           And you know what? I Love what i do! 💜
