@@ -62,7 +62,7 @@ function Navebar() {
       </NavLink> */}
       <button
         onClick={toggleTheme}
-        className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 dark:border-gray-700 bg-white shadow-lg transition-all duration-300 flex items-center justify-center"
+        className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-800 shadow shadow-gray-400 transition-all duration-300 flex items-center justify-center"
       >
         {darkMode ? <Sun /> : <Moon />}
       </button>
