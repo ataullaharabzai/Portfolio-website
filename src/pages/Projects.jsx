@@ -19,16 +19,16 @@ function Projects() {
     <main className="p-5 md:p-15 mt-5">
       <div>
         <p data-aos='fade-right' className="text-3xl md:text-7xl font-bold">
-          My <span className="text-[#6e06f2]">Best</span> Creations
-          <span className="font-bold text-3xl md:text-8xl text-[#6e06f2]">
+          My <span className="text-[#6e06f2] dark:text-orange-600">Best</span> Creations
+          <span className="font-bold text-3xl md:text-8xl text-[#6e06f2] dark:text-orange-600">
             .
           </span>
         </p>
-        <p data-aos='fade-left' className="text-[#4e525a] text-[16px] md:text-[24px] mt-5">
+        <p data-aos='fade-left' className="text-[#4e525a] dark:text-gray-300 text-[16px] md:text-[24px] mt-5">
           Designing and developing modern web applications that combine
           creativity,
         </p>
-        <p data-aos='fade-left' className="text-[#4e525a] text-[16px] md:text-[24px]">
+        <p data-aos='fade-left' className="text-[#4e525a] dark:text-gray-300 text-[16px] md:text-[24px]">
           performance, and exceptional user experiences.
         </p>
       </div>

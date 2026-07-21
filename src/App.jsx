@@ -6,12 +6,12 @@ import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
-    <>
+    <div className="dark:bg-gray-900 dark:text-gray-200">
       <ScrollToTop />
       <Navebar />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 

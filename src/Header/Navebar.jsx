@@ -7,21 +7,21 @@ function Navebar() {
   const { darkMode, toggleTheme } = useTheme();
 
   return (
-    <header className="w-full flex justify-around items-stretch sm:items-center md:gap-50 p-3 text-[#4e525a]">
+    <header className="dark:text-gray-300 w-full flex justify-around items-stretch sm:items-center md:gap-50 p-3 text-[#4e525a]">
       <NavLink
         to="/"
-        className="font-bold w-full text-[12px] flex justify-center items-center sm:text-[16px] sm:w-42.5 mr-2 sm:mr-0"
+        className="font-bold w-full text-[12px] flex justify-center items-center md:text-[20px] sm:w-42.5 mr-2 sm:mr-0"
       >
-        Arabzai DEV<span className="font-bold text-3xl text-[#6e06f2]">.</span>
+        Arabzai DEV<span className="font-bold text-3xl text-[#6e06f2] dark:text-orange-600">.</span>
       </NavLink>
-      <nav className="list-none w-full text-[11px] sm:text-[16px] max-w-60 flex justify-center sm:justify-around gap-3 sm:gap-0 items-center">
+      <nav className="list-none w-full text-[11px] md:text-[20px] max-w-70 flex justify-center sm:justify-around gap-3 items-center">
         <li>
           <NavLink
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-[#6e06f2] font-semibold"
-                : "hover:text-[#6e06f2] font-semibold"
+                ? "text-[#6e06f2] dark:text-orange-600 font-semibold"
+                : "hover:text-[#6e06f2] dark:hover:text-orange-600 font-semibold"
             }
           >
             Home
@@ -33,8 +33,8 @@ function Navebar() {
             to="/projects"
             className={({ isActive }) =>
               isActive
-                ? "text-[#6e06f2] font-semibold"
-                : "hover:text-[#6e06f2] font-semibold"
+                ? "text-[#6e06f2] dark:text-orange-600 font-semibold"
+                : "hover:text-[#6e06f2] dark:hover:text-orange-600 font-semibold"
             }
           >
             Projects
@@ -46,8 +46,8 @@ function Navebar() {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? "text-[#6e06f2] font-semibold"
-                : "hover:text-[#6e06f2] font-semibold"
+                ? "text-[#6e06f2] dark:text-orange-600 font-semibold"
+                : "hover:text-[#6e06f2] dark:hover:text-orange-600 font-semibold"
             }
           >
             About
@@ -60,12 +60,12 @@ function Navebar() {
       >
         <MessageCircle className=" w-4 sm:w-8 sm:h-8" />
       </NavLink> */}
-      {/* <button
+      <button
         onClick={toggleTheme}
-        className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 shadow-lg transition-all duration-300 flex items-center justify-center"
+        className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 dark:border-gray-700 bg-white shadow-lg transition-all duration-300 flex items-center justify-center"
       >
         {darkMode ? <Sun /> : <Moon />}
-      </button> */}
+      </button>
     </header>
   );
 }
