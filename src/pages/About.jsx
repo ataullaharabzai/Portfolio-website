@@ -16,13 +16,19 @@ function About() {
     <main>
       <section className="title p-5 md:p-15 mt-5">
         <div className="w-full">
-          <p data-aos='fade-right' className="text-4xl font-semibold md:font-bold md:text-8xl">
+          <p
+            data-aos="fade-right"
+            className="text-4xl font-semibold md:font-bold md:text-8xl"
+          >
             About me
-            <span className="font-bold text-3xl md:text-8xl text-[#6e06f2]">
+            <span className="font-bold text-3xl md:text-8xl text-[#6e06f2] dark:text-orange-600">
               .
             </span>
           </p>
-          <p data-aos='fade-left' className="md:text-2xl text-[#4e525a] mt-5 sm:border-l-20 border-[#6e06f2] p-3">
+          <p
+            data-aos="fade-left"
+            className="md:text-2xl text-[#4e525a] mt-5 sm:border-l-20 border-[#6e06f2] dark:border-orange-600 p-3"
+          >
             Developing beautiful and functional websites is what I love doing,
             which is why I put my full effort into every project I work on. I
             enjoy solving problems, learning new technologies, and creating
@@ -63,13 +69,19 @@ function About() {
       </section>
 
       <section className="myStory w-full p-5 md:p-15">
-        <p data-aos='fade-right' className="text-[30px] sm:text-[50px] font-bold">
+        <p
+          data-aos="fade-right"
+          className="text-[30px] sm:text-[50px] font-bold"
+        >
           My Story
-          <span className="font-bold text-3xl md:text-6xl text-[#6e06f2]">
+          <span className="font-bold text-3xl md:text-6xl text-[#6e06f2] dark:text-orange-600">
             .
           </span>
         </p>
-        <p data-aos='fade-left' className="text-[13px] md:text-[18px] text-[#4e525a]">
+        <p
+          data-aos="fade-left"
+          className="text-[13px] md:text-[18px] text-[#4e525a] dark:text-gray-300"
+        >
           My journey into web development started with curiosity and a desire to
           create things on the internet. What began with learning HTML and CSS
           gradually grew into a passion for building interactive and responsive
