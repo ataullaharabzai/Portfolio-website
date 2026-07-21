@@ -27,7 +27,7 @@ function Home() {
           className="introduction dark:text-gray-300 w-full md:max-w-[50%] flex flex-wrap justify-center items-stretch flex-col gap-2"
         >
           <p className="dark:text-gray-200 text-[14px] md:text-[22px] text-[#4e525a]">
-            Hey, I'm Ataullah ARABZAI
+            Hey, I'm <span className="dark:text-orange-600 text-[#6c06f2]">Ataullah ARABZAI</span>
           </p>
           <div className="leading-12 w-full md:w1/2 lg:leading-24">
             <h1 className="text-[50px] lg:text-[90px] font-bold">

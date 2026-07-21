@@ -12,7 +12,10 @@ function Navebar() {
         to="/"
         className="font-bold w-full text-[12px] flex justify-center items-center md:text-[20px] sm:w-42.5 mr-2 sm:mr-0"
       >
-        Arabzai DEV<span className="font-bold text-3xl text-[#6e06f2] dark:text-orange-600">.</span>
+        Arabzai DEV
+        <span className="font-bold text-3xl text-[#6e06f2] dark:text-orange-600">
+          .
+        </span>
       </NavLink>
       <nav className="list-none w-full text-[11px] md:text-[20px] max-w-70 flex justify-center sm:justify-around gap-3 items-center">
         <li>
