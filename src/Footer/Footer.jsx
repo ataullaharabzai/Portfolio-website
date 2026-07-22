@@ -4,9 +4,9 @@ import { Linkedin, GitHub } from "react-feather";
 
 function Footer() {
   return (
-    <footer className="p-5 md:p-15">
+    <footer className="p-5 md:p-10">
       <div className="w-full flex flex-col md:flex-row gap-5 md:gap-0 justify-between items-center flex-wrap">
-        <div className="w-full max-w-75 flex justify-center gap-5 md:gap-0 md:justify-between items-center text-[#4e525a] dark:text-gray-300 text-[11px] sm:text-[17px]">
+        <div className="w-full max-w-[640px] flex justify-center gap-5 md:gap-0 md:justify-between items-center text-[#4e525a] dark:text-gray-300 text-[11px] sm:text-[17px]">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -51,7 +51,7 @@ function Footer() {
             Contact
           </NavLink>
         </div>
-        <div className="text-[#4e525a] dark:text-gray-300 w-full max-w-20 flex justify-around items-center">
+        <div className="text-[#4e525a] dark:text-gray-300 w-full max-w-[320px] flex justify-around items-center">
           <a href="https://linkedin.com/in/ataullah-dev">
             <Linkedin className="hover:fill-[#4e525a]" />
           </a>
@@ -62,7 +62,7 @@ function Footer() {
       </div>
 
       <div className="w-full flex flex-col md:flex-row justify-between items-center md:mt-10 mt-5 gap-5 md:gap-0">
-        <div className="w-full max-w-96 p-2 flex justify-center items-center flex-col md:gap-5">
+        <div className="w-full max-w-[640px] p-2 flex justify-center items-center flex-col md:gap-5">
           <p className="text-[#4e525a] dark:text-gray-300 font-semibold text-[14px] md:text-[22px]">
             Interested in working together
             <span className="text-[#6e06f2] dark:text-orange-600">?</span>
@@ -82,7 +82,7 @@ function Footer() {
             </NavLink>
           </div>
         </div>
-        <div className="text-[#4e525a] w-full max-w-75 text-[12px] md:text-[16px] md:text-right text-center dark:text-gray-300">
+        <div className="text-[#4e525a] w-full max-w-[640px] text-[12px] md:text-[16px] md:text-right text-center dark:text-gray-300">
           <p>©2026 All Rights Reserved.</p>
           <p>Made with 💜 by Ataullah ARABZAI</p>
         </div>

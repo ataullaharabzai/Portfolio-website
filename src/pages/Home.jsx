@@ -21,7 +21,7 @@ function Home() {
 
   return (
     <main className="dark:text-gray-300">
-      <div className=" w-full p-5 md:p-15 mt-10 flex flex-col md:flex-row justify-around">
+      <div className="w-full p-5 md:p-10 mt-10 flex flex-col md:flex-row justify-around">
         <section
           data-aos="fade-left"
           className="introduction dark:text-gray-300 w-full md:max-w-[50%] flex flex-wrap justify-center items-stretch flex-col gap-2"
@@ -32,7 +32,7 @@ function Home() {
               Ataullah ARABZAI
             </span>
           </p>
-          <div className="leading-12 w-full md:w1/2 lg:leading-24">
+          <div className="leading-12 w-full md:w-1/2 lg:leading-24">
             <h1 className="text-[50px] lg:text-[90px] font-bold">
               <span className="text-[#6e06f2] dark:text-orange-600">Front</span>
               end
@@ -43,23 +43,23 @@ function Home() {
             I'm a frontend developer based in Afghanistan, I'll help you build
             beautiful websites and web applications your users will love.
           </p>
-          <div className="text-[14px] md:text-[16px] w-full lg:w-155 flex justify-center lg:justify-start items-center flex-col sm:flex-row mt-5 gap-4 lg:gap-2 sm:mt-0">
+          <div className="text-[14px] md:text-[16px] w-full flex flex-col sm:flex-row sm:flex-wrap gap-3">
             <NavLink
               to="/contact"
-              className="border dark:border-orange-600 rounded-lg font-medium text-center w-2/3 py-2 text-white bg-[#6c06f2] dark:bg-orange-600 cursor-pointer hover:bg-[#6c06f2c5] transition-all"
+              className="border dark:border-orange-600 rounded-lg font-medium text-center w-full sm:w-auto flex-1 py-2 text-white bg-[#6c06f2] dark:bg-orange-600 cursor-pointer hover:bg-[#6c06f2c5] transition-all"
             >
               Get In Touch
             </NavLink>
             <NavLink
               to="/projects"
-              className="border dark:border-gray-500 dark:hover:bg-transparent dark:hover:border-gray-300 rounded-lg font-medium text-center w-2/3 py-2 cursor-pointer hover:bg-black hover:text-white transition-all"
+              className="border dark:border-gray-500 dark:hover:bg-transparent dark:hover:border-gray-300 rounded-lg font-medium text-center w-full sm:w-auto flex-1 py-2 cursor-pointer hover:bg-black hover:text-white transition-all"
             >
               Browse Projects
             </NavLink>
             <a
-              className="border dark:border-gray-500 dark:hover:bg-transparent dark:hover:border-gray-300 rounded-lg font-medium w-2/3 flex justify-center items-center gap-3 py-2 cursor-pointer hover:bg-black hover:text-white transition-all"
-              href=""
-              download={cv}
+              className="border dark:border-gray-500 dark:hover:bg-transparent dark:hover:border-gray-300 rounded-lg font-medium w-full sm:w-auto flex-1 justify-center items-center gap-2 py-2 cursor-pointer hover:bg-black hover:text-white transition-all inline-flex"
+              href={cv}
+              download
             >
               Download CV <Download />
             </a>
@@ -67,7 +67,7 @@ function Home() {
         </section>
         <section className="myImage w-full">
           <div className="circle-img lg:w-full flex justify-center items-center mt-10 md:mt-0">
-            <div className="lg:w-95 lg:h-95 w-65 h-65 rounded-full p-10 border border-[#6e06f2] dark:border-orange-600">
+            <div className="lg:w-[380px] lg:h-[380px] w-[260px] h-[260px] rounded-full p-10 border border-[#6e06f2] dark:border-orange-600">
               <img
                 data-aos="zoom-out"
                 className="object-cover w-full h-full rounded-full"

@@ -10,14 +10,14 @@ function Navebar() {
     <header className="w-full flex justify-around items-center p-3">
       <NavLink
         to="/"
-        className="font-bold w-full text-[12px] flex justify-center items-center md:text-[20px] sm:w-42.5 mr-2 sm:mr-0"
+        className="font-bold w-full text-[10px] flex justify-center items-center md:text-[20px] sm:w-42.5"
       >
         Arabzai DEV
         <span className="font-bold text-3xl text-[#6e06f2] dark:text-orange-600">
           .
         </span>
       </NavLink>
-      <nav className="list-none w-full text-[11px] md:text-[20px] max-w-70 flex justify-center sm:justify-around gap-3 items-center">
+      <nav className="list-none w-full text-[9px] md:text-[20px] max-w-70 flex justify-center sm:justify-around gap-3 items-center">
         <li>
           <NavLink
             to="/"
@@ -66,7 +66,7 @@ function Navebar() {
       <div className="w-2/4 md:w-1/6 flex justify-center">
         <button
           onClick={toggleTheme}
-          className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-800 shadow shadow-gray-400 transition-all duration-300 flex items-center justify-center"
+          className="cursor-pointer group w-10 h-10 md:w-12 md:h-12 rounded-full border border-gray-300 bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-800 shadow shadow-gray-400 transition-all duration-300 flex items-center justify-center"
         >
           {darkMode ? <Sun /> : <Moon />}
         </button>

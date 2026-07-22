@@ -16,7 +16,7 @@ function Projects() {
   }, []);
 
   return (
-    <main className="p-5 md:p-15 mt-5">
+    <main className="p-5 md:p-10 mt-5">
       <div>
         <p data-aos="fade-right" className="text-3xl md:text-7xl font-bold">
           My <span className="text-[#6e06f2] dark:text-orange-600">Best</span>{" "}
@@ -41,7 +41,10 @@ function Projects() {
       </div>
 
       <section className="projects p-5">
-        <div data-aos="fade-up" className="project1 mt-10 bg-white rounded-2xl dark:bg-gray-800 p-3">
+        <div
+          data-aos="fade-up"
+          className="project1 mt-10 bg-white rounded-2xl dark:bg-gray-800 p-3"
+        >
           <div className="w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a
               href="https://ataullaharabzai.github.io/Dental-Clinic/"
@@ -51,7 +54,7 @@ function Projects() {
                 <img
                   src={clinic}
                   alt="Dental Clinic"
-                  className="sm:w-180 sm:h-90 object-top rounded-xl"
+                  className="w-full h-auto object-top rounded-xl"
                 />
               </div>
             </a>
@@ -68,14 +71,17 @@ function Projects() {
           </p>
         </div>
 
-        <div data-aos="fade-up" className="project2 mt-10 dark:bg-gray-800 p-3 bg-white rounded-2xl">
+        <div
+          data-aos="fade-up"
+          className="project2 mt-10 dark:bg-gray-800 p-3 bg-white rounded-2xl"
+        >
           <div className=" w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a href="https://dev-hire-jobs.vercel.app" className="">
               <div className="shadow shadow-gray-400 rounded-2xl">
                 <img
                   src={devhire}
                   alt="Dental Clinic"
-                  className="sm:w-180 sm:h-90 object-top rounded-xl"
+                  className="w-full h-auto object-top rounded-xl"
                 />
               </div>
             </a>
@@ -90,14 +96,17 @@ function Projects() {
           </p>
         </div>
 
-        <div data-aos="fade-up" className="project3 mt-20 dark:bg-gray-800 p-3 bg-white rounded-2xl">
+        <div
+          data-aos="fade-up"
+          className="project3 mt-20 dark:bg-gray-800 p-3 bg-white rounded-2xl"
+        >
           <div className="w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a href="https://github.com/ataullaharabzai" className="">
               <div>
                 <img
                   src={product}
                   alt="Dental Clinic"
-                  className="sm:w-180 sm:h-90 object-top rounded-xl"
+                  className="w-full h-auto object-top rounded-xl"
                 />
               </div>
             </a>
@@ -113,14 +122,17 @@ function Projects() {
           </p>
         </div>
 
-        <div data-aos="fade-up" className="project4 mt-20 dark:bg-gray-800 p-3 bg-white rounded-2xl">
+        <div
+          data-aos="fade-up"
+          className="project4 mt-20 dark:bg-gray-800 p-3 bg-white rounded-2xl"
+        >
           <div className="w-full shadow shadow-gray-400 p-5 flex justify-center items-center rounded-2xl">
             <a href="https://github.com/ataullaharabzai" className="">
               <div>
                 <img
                   src={youtube}
                   alt="Dental Clinic"
-                  className="sm:w-180 sm:h-90 object-top rounded-xl"
+                  className="w-full h-auto object-top rounded-xl"
                 />
               </div>
             </a>

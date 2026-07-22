@@ -14,7 +14,7 @@ function About() {
 
   return (
     <main>
-      <section className="title p-5 md:p-15 mt-5">
+      <section className="title p-5 md:p-10 mt-5">
         <div className="w-full">
           <p
             data-aos="fade-right"
@@ -27,7 +27,7 @@ function About() {
           </p>
           <p
             data-aos="fade-left"
-            className="md:text-2xl text-[#4e525a] mt-5 sm:border-l-20 border-[#6e06f2] dark:border-orange-600 p-3"
+            className="md:text-2xl text-[#4e525a] mt-5 sm:border-l-[20px] border-[#6e06f2] dark:border-orange-600 p-3"
           >
             Developing beautiful and functional websites is what I love doing,
             which is why I put my full effort into every project I work on. I
@@ -68,7 +68,7 @@ function About() {
         </div>
       </section>
 
-      <section className="myStory w-full p-5 md:p-15">
+      <section className="myStory w-full p-5 md:p-10">
         <p
           data-aos="fade-right"
           className="text-[30px] sm:text-[50px] font-bold"
