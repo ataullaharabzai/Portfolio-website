@@ -17,7 +17,7 @@ function Navebar() {
           .
         </span>
       </NavLink>
-      <nav className="list-none w-full text-[9px] md:text-[20px] max-w-70 flex justify-center sm:justify-around gap-3 items-center">
+      <nav className="list-none w-full text-[14px] md:text-[20px] max-w-70 flex justify-center sm:justify-around gap-3 items-center">
         <li>
           <NavLink
             to="/"
