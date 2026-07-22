@@ -30,14 +30,14 @@ function Contact() {
           </div>
           <p
             data-aos="fade-left"
-            className="text-[14px] md:text-[22px] text-[#4e525a] md:leading-8 leading-6"
+            className="text-[14px] md:text-[22px] dark:text-gray-300 text-[#4e525a] md:leading-8 leading-6"
           >
             Have a project in mind
             <span className="text-[#6e06f2] dark:text-orange-600">?</span>
           </p>
           <p
             data-aos="fade-left"
-            className="text-[14px] md:text-[22px] text-[#4e525a] md:leading-8 leading-6"
+            className="text-[14px] md:text-[22px] text-[#4e525a] md:leading-8 leading-6 dark:text-gray-300"
           >
             Let’s connect through the form and I’ll get back to you shortly.
           </p>
