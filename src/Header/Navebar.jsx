@@ -7,7 +7,7 @@ function Navebar() {
   const { darkMode, toggleTheme } = useTheme();
 
   return (
-    <header className="dark:text-gray-300 w-full flex justify-around items-stretch sm:items-center md:gap-50 p-3 text-[#4e525a]">
+    <header className="w-full flex justify-around items-center p-3">
       <NavLink
         to="/"
         className="font-bold w-full text-[12px] flex justify-center items-center md:text-[20px] sm:w-42.5 mr-2 sm:mr-0"
@@ -63,12 +63,14 @@ function Navebar() {
       >
         <MessageCircle className=" w-4 sm:w-8 sm:h-8" />
       </NavLink> */}
-      <button
-        onClick={toggleTheme}
-        className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-800 shadow shadow-gray-400 transition-all duration-300 flex items-center justify-center"
-      >
-        {darkMode ? <Sun /> : <Moon />}
-      </button>
+      <div className="w-2/4 md:w-1/6 flex justify-center">
+        <button
+          onClick={toggleTheme}
+          className="cursor-pointer group w-12 h-12 rounded-full border border-gray-300 bg-gray-900 text-white dark:bg-gray-300 dark:text-gray-800 shadow shadow-gray-400 transition-all duration-300 flex items-center justify-center"
+        >
+          {darkMode ? <Sun /> : <Moon />}
+        </button>
+      </div>
     </header>
   );
 }
