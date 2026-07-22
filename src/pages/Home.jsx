@@ -46,7 +46,7 @@ function Home() {
           <div className="text-[14px] md:text-[16px] w-full flex flex-col sm:flex-row sm:flex-wrap gap-3">
             <NavLink
               to="/contact"
-              className="border dark:border-orange-600 rounded-lg font-medium text-center w-full sm:w-auto flex-1 py-2 text-white bg-[#6c06f2] dark:bg-orange-600 cursor-pointer hover:bg-[#6c06f2c5] transition-all"
+              className="border dark:border-orange-600 rounded-lg font-medium text-center w-full sm:w-auto flex-1 py-2 text-white bg-[#6c06f2] dark:bg-orange-600 cursor-pointer hover:bg-[#6c06f2c5] dark:hover:bg-orange-700 transition-all"
             >
               Get In Touch
             </NavLink>
@@ -67,13 +67,15 @@ function Home() {
         </section>
         <section className="myImage w-full">
           <div className="circle-img lg:w-full flex justify-center items-center mt-10 md:mt-0">
-            <div className="lg:w-[380px] lg:h-[380px] w-[260px] h-[260px] rounded-full p-10 border border-[#6e06f2] dark:border-orange-600">
-              <img
-                data-aos="zoom-out"
-                className="object-cover w-full h-full rounded-full"
-                src={darkImg}
-                alt="Developer Image"
-              />
+            <div className="circle-img lg:w-full flex justify-center items-center mt-10 md:mt-0">
+              <div className="dark:hover:shadow-xl transition-all duration-150 dark:border-orange-600 lg:w-[380px] lg:h-[380px] w-[260px] h-[260px] rounded-full p-10 border-2 border-[#6e06f2] dark:shadow-xl dark:shadow-orange-600 shadow-xl shadow-[#6e06f2]">
+                <img
+                  data-aos="zoom-out"
+                  className="object-cover w-full h-full rounded-full"
+                  src={darkImg}
+                  alt="Developer Image"
+                />
+              </div>
             </div>
           </div>
         </section>
